@@ -19,9 +19,10 @@ const Icon = styled.div`
 `
 
 export function Social(){
+
     return(
         <div className="socialContainer">
-            <a href=""><Icon>
+            <a href="mailto:matheusyurizax7@gmail.com"><Icon>
             <GmailIcon/>
             </Icon></a>
             <a href="https://instagram.com/theusoyuri?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank"><Icon>
