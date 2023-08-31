@@ -1,6 +1,8 @@
 "use client";
 
+import { Experiences } from "./components/experiences";
 import { Header } from "./components/header";
+import { Languages } from "./components/languages";
 import { Social } from "./components/social";
 
 
@@ -10,6 +12,8 @@ export default function Home() {
       
         <Header />
         <Social/>
+        <Languages/>
+        <Experiences/>
     </main>
   );
 }

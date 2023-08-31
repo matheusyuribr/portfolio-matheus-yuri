@@ -21,15 +21,16 @@ const Icon = styled.div`
 export function Social(){
     return(
         <div className="socialContainer">
-            <Icon>
+            <a href=""><Icon>
             <GmailIcon/>
-            </Icon>
-            <Icon>
+            </Icon></a>
+            <a href="https://instagram.com/theusoyuri?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank"><Icon>
             <InstaIcon/>
-            </Icon>
-            <Icon>
+            </Icon></a>
+            <a href="https://www.linkedin.com/in/matheus-yuri-732b14209/" target="_blank"><Icon>
             <LinkedinIcon/>
-            </Icon>
+            </Icon></a>
+            
         </div>
     )
 }

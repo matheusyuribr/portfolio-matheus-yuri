@@ -1,6 +1,7 @@
 :root {
   --primary-color: #1A1A2E;
   --secondary-color: #E64A19;
+  --background-color: #FFFAF0;
 }
 
 
@@ -16,6 +17,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: 'Press Start 2P', cursive;
+  background-color: var(--background-color);
 }
 
 .container{
@@ -26,6 +28,7 @@ body {
   grid-template-areas:
         "header header header empty1"
         "social empty2 empty3 language"
+        "experience experience experience sempty4";
         
 }
 
@@ -39,6 +42,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.languagesContainer{
+  grid-area: language;
+  
+}
+
+.experiencesContainer{
+  grid-area: experience;
+  padding: 30px 30px;
 }
 
 
