@@ -28,7 +28,8 @@ body {
   grid-template-areas:
         "header header header empty1"
         "social empty2 empty3 language"
-        "experience experience experience sempty4";
+        "experience experience experience empty4"
+        "technologies technologies technologies technologies";
         
 }
 
@@ -54,6 +55,9 @@ body {
   padding: 30px 30px;
 }
 
+.technologiesContainer{
+  grid-area: technologies;
+}
 
 
 

@@ -6,17 +6,20 @@ const Infos = styled.div`
         color: var(--primary-color);
         font-size: 20px;
         font-weight: 400;
+        padding-bottom: 20px;
     }
 
     span{
         color: var(--secondary-color);
         font-size: 16px;
         font-weight: 400;
+        padding-bottom: 10px;
     }
     p{
         color: var(--secondary-color);
         font-size: 16px;
         font-weight: 400;
+        padding-bottom: 10px;
     }
 
     div{
