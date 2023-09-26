@@ -16,6 +16,27 @@ const Tecno = styled.div`
         flex-direction: row;
         padding: 30px;
     }
+
+    @media screen and (max-width: 768px){
+  
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+        }
+      
+
+        .technologies{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+
+      }
+
+
 `;
 
 const Square = styled.div`
@@ -35,7 +56,7 @@ const Square = styled.div`
         color: var(--secondary-color);
         text-align: center;
        
-    }
+    }  
 `;
 
 export function Technologies() {
@@ -43,23 +64,23 @@ export function Technologies() {
         <div className="technologiesContainer">
             <Tecno>
                 <h1>Technologies</h1>
-                <div>
+                <div className="technologies">
                     <Square><span>HTML, CSS</span></Square>
                     <Square><span>JavaScript</span></Square>
                     <Square><span>React</span></Square>
                 </div>
-                <div>
+                <div className="technologies">
                     <Square><span>Angular</span></Square>
                     <Square><span>Git</span></Square>
                     <Square><span>Python</span></Square>
                 </div>
 
-                <div>
+                <div className="technologies">
                     <Square><span>Java</span></Square>
                     <Square><span>Springboot</span></Square>
                     <Square><span>NextJS</span></Square>
                 </div>
-                <div>
+                <div className="technologies">
                     <Square><span>Postgresql</span></Square>
                     <Square><span>MongoDB</span></Square>
                     <Square><span>SQL Server</span></Square>

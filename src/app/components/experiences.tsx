@@ -28,6 +28,17 @@ const Infos = styled.div`
         align-items: flex-start;
     }
 
+    @media screen and (max-width: 768px){
+  
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+      }
+
+
 `
 
 export function Experiences(){
@@ -36,7 +47,7 @@ export function Experiences(){
             <Infos>
             <div>
 
-            <h3>Experiences</h3>
+            <h3 id="experiences">Experiences</h3>
             <p>Plena Alimentos - Full-stack developer</p>
             <span>Two years</span>
             <p>Freelancer - Full-stack developer</p>

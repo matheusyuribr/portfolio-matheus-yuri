@@ -18,8 +18,22 @@ const Lang = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-right: 50px;
+        padding: 20px 0 0 0;
     }
+
+
+    @media screen and (max-width: 768px){
+  
+        div{
+            padding-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+      
+      }
+
+
 `
 export function Languages(){
     return(

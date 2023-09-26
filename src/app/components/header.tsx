@@ -36,6 +36,37 @@ const Top = styled.div`
         padding-left: 30px;
     }
 
+    @media screen and (max-width: 768px){
+
+        .header{
+            display: flex;
+            flex-direction: column;
+            padding: 30px 30px;
+            align-items: center;
+            
+        }
+
+        h1{
+            color: var(--primary-color);
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            padding-bottom: 20px;
+            
+        }
+    
+        h2{
+            color: var(--secondary-color);
+            font-size: 16px;
+    
+            font-weight: 400;
+        }
+
+        img{
+            border-radius: 30px;
+        }
+    }
+
 `;
 
 export function Header() {
